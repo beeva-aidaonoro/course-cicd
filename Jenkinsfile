@@ -1,6 +1,6 @@
 node('master') {
   stage('Checkout') {
     deleteDir()
-    git credentialsId: '10b2c3b8-4a2c-476f-ac57-cb3266e1680a', url: 'git@github.com:beeva/corse-cicd.git'
+    git credentialsId: 'c3430e8b-69de-44f5-b102-56178f6bd999', url: 'git@github.com:beeva-aidaonoro/course-cicd.git'
   }
 }
